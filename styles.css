@@ -1,0 +1,55 @@
+
+
+
+
+body{
+    color:white;
+    background : pink;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header{
+    border: solid 4xp red;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+img{
+
+    height: 150px
+}
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top:50px;
+background-color: black;
+display: flex;
+
+}
+
+.imagens{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.imagens  img{
+    border-radius: 3%;
+opacity: 0.8;
+height: 200px;
+}
+
+.imagens  img:hover {
+    border: 3px solid #000;
+    opacity: 1.0;
+}
+
+.text{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 50px;
+}
